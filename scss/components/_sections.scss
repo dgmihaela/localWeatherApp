@@ -1,0 +1,45 @@
+#main-container{
+	width: 40%;
+	margin:0 auto;
+	padding: 2rem 0;
+	background-color: #363b74;
+	border-radius: 5rem;
+	margin-top: 2rem;
+}
+#city, #country{
+	font-size:2.5rem;
+	color: #fff;
+}
+
+#fTemp{
+	color: #e86af0;
+	cursor:pointer;
+	font-size: 2rem;
+	margin-left: 0.5rem;
+}
+.thermometer-icon{
+	width: 2rem;
+}
+.wind-icon{
+	width: 2rem; 
+}
+#windSpeed{
+	color: #7bb3ff;
+	font-size: 2rem;
+	margin-left: 0.5rem;
+}
+#weatherType{
+	color: 	#7bb3ff;
+}
+.weatherIcon{
+	width: 40%;
+	float: left;
+}
+.specs{
+	width:40%;
+	float: left;
+	padding-top: 1rem;
+}
+#weatherType{
+	margin-bottom: 4rem;
+}

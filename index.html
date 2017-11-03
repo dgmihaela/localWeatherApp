@@ -1,0 +1,64 @@
+
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>WeatherApp</title>
+    <link href="css/application.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <section id="main-container" class="clearfix">
+      <div><span id="city"></span><span id="country"></span></div>
+      <div><p id="weatherType"></p></div>
+
+      <div class="specs">
+        <div><img class="thermometer-icon" src="img/thermometer.svg"><span id="fTemp"></span></div>
+        <div><img class="wind-icon" src="img/wind-swirls.svg"><span id="windSpeed"></span></div>
+      </div>
+      <div class="weatherIcon">
+        <div class="weatherIcon-container">
+          <div class="text-center all-icon">
+            <div class="icon sun-shower hide">
+              <div class="cloud"></div>
+              <div class="sun">
+                <div class="rays"></div>
+              </div>
+              <div class="rain"></div>
+            </div>
+            <div class="icon thunder-storm thunderstom hide">
+              <div class="cloud"></div>
+              <div class="lightning">
+                <div class="bolt"></div>
+                <div class="bolt"></div>
+              </div>
+            </div>
+            <div class="icon cloudy clouds mist hide">
+              <div class="cloud"></div>
+              <div class="cloud"></div>
+            </div>
+            <div class="icon flurries snow hide">
+              <div class="cloud"></div>
+              <div class="snow">
+                <div class="flake"></div>
+                <div class="flake"></div>
+              </div>
+            </div>
+            <div class="icon sunny clear hide">
+              <div class="sun">
+                <div class="rays"></div>
+              </div>
+            </div>
+            <div class="icon rainy rain hide">
+              <div class="cloud"></div>
+              <div class="rain"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="js/app.min.js" type="text/javascript"></script>
+  </body>
+</html>
